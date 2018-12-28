@@ -1667,7 +1667,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
 }
 </convert>
 </widget>
-<widget name="rc" position="993,70" size="154,500" pixmap="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -1689,7 +1689,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
 }
 </convert>
 </widget>
-<widget name="rc" position="993,70" size="154,500" pixmap="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -1711,7 +1711,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
 }
 </convert>
 </widget>
-<widget name="rc" position="993,70" size="154,500" pixmap="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -1733,7 +1733,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
 }
 </convert>
 </widget>
-<widget name="rc" position="993,70" size="154,500" pixmap="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -1756,7 +1756,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
 }
 </convert>
 </widget>
-<widget name="rc" position="993,70" size="154,500" pixmap="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -1778,7 +1778,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
 }
 </convert>
 </widget>
-<widget name="rc" position="993,70" size="154,500" pixmap="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -1796,7 +1796,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
 }
 </convert>
 </widget>
-<widget name="rc" position="993,70" size="154,500" pixmap="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -1815,7 +1815,7 @@ MultiContentEntryPixmap(pos = (10, 5), size = (60, 40), png = 2),
 }
 </convert>
 </widget>
-<widget name="rc" position="993,70" size="154,500" pixmap="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -2048,7 +2048,7 @@ MultiContentEntryPixmap(pos = (10, 5), size = (60, 40), png = 2),
 <screen name="HelpMenu" position="center,200" size="1300,720" title="help...">
 <widget name="list" position="20,10" size="820,700" zPosition="2" font="Regular;28" itemHeight="32" enableWrapAround="1" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x32.png" selectionPixmap="BlackShadowSE_P/menu/button820x32.png" transparent="1"/>
 <widget name="long_key" position="993,585" size="142,35" font="Regular;30" halign="center" foregroundColor="info" backgroundColor="bgmain" transparent="1"/>
-<widget name="rc" position="993,70" size="142,500" pixmap="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -6930,7 +6930,7 @@ shadowOffset="2,2" font="Regular;56" valign="center" halign="right" >
 <widget name="ErrorPixmap" pixmap="BlackShadowSE_P/icons/input_error.png" position="20,20" size="53,53" alphatest="blend"/>
 <widget name="QuestionPixmap" pixmap="BlackShadowSE_P/icons/input_question.png" position="20,20" size="53,53" alphatest="blend"/>
 <widget name="InfoPixmap" pixmap="BlackShadowSE_P/icons/input_info.png" position="20,20" size="53,53" alphatest="blend"/>
-<widget name="rc" position="993,70" size="154,500" pixmap="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="text" position="20,120" size="820,240" font="Regular;28" foregroundColor="button" backgroundColor="bgbutton" transparent="1"/>
 <widget name="list" position="20,380" size="820,320" font="Regular;28" itemHeight="40" enableWrapAround="1" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1"/>
 </screen>
