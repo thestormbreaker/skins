@@ -1,0 +1,12 @@
+Package: enigma2-plugin-skins-openplushd
+Version: 2.0+git19+3849a5b-r48
+Description: openplusHD
+ openplusHD.
+Section: base
+Priority: optional
+Maintainer: OpenPlus Team
+License: GPLv2+
+Architecture: all
+OE: enigma2-plugin-skins-openplushd
+Depends: libgcc1 (>= 5.3.0), enigma2-plugin-extensions-skinpanel, libstdc++6 (>= 5.3.0), libc6 (>= 2.23)
+Source: git://github.com/Open-Plus/openplusHD.git;protocol=https;branch=master
