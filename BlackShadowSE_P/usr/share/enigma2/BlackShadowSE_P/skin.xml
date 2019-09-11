@@ -1496,12 +1496,12 @@ MultiContentEntryText(pos = (670, 3), size = (150, 37),  font = 1, flags = RT_HA
 <widget name="menu" position="0,20" size="820,760" zPosition="2" font="Regular;28" itemHeight="40" enableWrapAround="1" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1"/>
 </screen>
 <screen name="ChannelSelection" position="center,105" size="1820,880" title="">
-<eLabel position="1208,18" size="570,324" zPosition="2" backgroundColor="black"/>
+<eLabel position="1200,20" size="640,320" zPosition="2" backgroundColor="black"/>
 <widget source="session.VideoPicture" render="Pig" position="1228,30" zPosition="3" size="530,300" backgroundColor="#ff000000"/>
 <ePixmap pixmap="BlackShadowSE_P/menu/menubutton.png" position="1730,815" size="48,48" alphatest="blend"/>
 <ePixmap pixmap="BlackShadowSE_P/menu/epg.png" position="1660,815" size="48,48" alphatest="blend"/>
-<eLabel position="1200,0" size="3,790" zPosition="1" backgroundColor="#323232"/>
-<widget name="list" position="10,70" size="1178,720" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="#ffffff" foregroundColorServiceNotAvail="#999999" colorEventProgressbarSelected="#ffffff" colorServiceDescription="#afafaf" colorServiceDescriptionSelected="#ffffff" serviceItemHeight="45" serviceNumberFont="Regular;26" serviceNameFont="Regular;32" serviceInfoFont="Regular;32" backgroundColor="bgbutton" backgroundColorSelected="selbutton" selectionPixmap="BlackShadowSE_P/menu/button1180x45.png" transparent="1"/>
+<eLabel position="1190,0" size="3,880" zPosition="1" backgroundColor="#272727"/>
+<widget name="list" position="10,67" size="1180,810" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="white" progressBarWidth="80" fieldMargins="13" foregroundColorServiceNotAvail="#999999" colorEventProgressbarSelected="white" colorServiceDescription="#afafaf" colorServiceDescriptionSelected="white" serviceItemHeight="45" serviceNumberFont="Regular;26" serviceNameFont="Regular;32" serviceInfoFont="Regular;32" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg1180x45.png" selectionPixmap="BlackShadowSE_P/menu/button1180x45.png" transparent="1"/>
 <ePixmap pixmap="BlackShadowSE_P/buttons/red48x48.png" position="40,10" size="48,48" alphatest="blend"/>
 <ePixmap pixmap="BlackShadowSE_P/buttons/green48x48.png" position="340,10" size="48,48" alphatest="blend"/>
 <ePixmap pixmap="BlackShadowSE_P/buttons/yellow48x48.png" position="640,10" size="48,48" alphatest="blend"/>
@@ -1510,37 +1510,23 @@ MultiContentEntryText(pos = (670, 3), size = (150, 37),  font = 1, flags = RT_HA
 <widget name="key_green" position="405,10" size="285,48" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="button" backgroundColor="bgmain" transparent="1"/>
 <widget name="key_yellow" position="705,10" size="285,48" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="button" backgroundColor="bgmain" transparent="1"/>
 <widget name="key_blue" position="1005,10" size="285,48" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="button" backgroundColor="bgmain" transparent="1"/>
-<ePixmap name="epg_search" pixmap="BlackShadowSE_P/buttons/epg_b.png" position="40,810" size="52,52" alphatest="blend"/>
-<ePixmap name="epg_single" pixmap="BlackShadowSE_P/buttons/epg_b.png" position="340,810" size="52,52" alphatest="blend"/>
-<ePixmap name="epg_multig" pixmap="BlackShadowSE_P/buttons/epg_b.png" position="640,810" size="52,52" alphatest="blend"/>
-<ePixmap name="last_search" pixmap="BlackShadowSE_P/buttons/epg_b.png" position="940,810" size="52,52" alphatest="blend"/>
-<eLabel text="1" position="57,821" size="30,35" zPosition="1" font="Regular;28" halign="left" backgroundColor="grey" transparent="1"/>
-<eLabel text="2" position="358,821" size="30,35" zPosition="1" font="Regular;28" halign="left" backgroundColor="grey" transparent="1"/>
-<eLabel text="3" position="658,821" size="30,35" zPosition="1" font="Regular;28" halign="left" backgroundColor="grey" transparent="1"/>
-<eLabel text="4" position="957,821" size="30,35" zPosition="1" font="Regular;28" halign="left" backgroundColor="grey" transparent="1"/>
-<eLabel text="Epg Search" position="105,819" size="300,48" zPosition="1" font="Regular;32" halign="left" foregroundColor="button" backgroundColor="bgkey" transparent="1"/>
-<eLabel text="Single Epg" position="405,819" size="300,48" zPosition="1" font="Regular;32" halign="left" foregroundColor="button" backgroundColor="bgkey" transparent="1"/>
-<eLabel text="MultiG Epg" position="705,819" size="300,48" zPosition="1" font="Regular;32" halign="left" foregroundColor="button" backgroundColor="bgkey" transparent="1"/>
-<eLabel text="Last Search" position="1005,819" size="300,48" zPosition="1" font="Regular;32" halign="left" foregroundColor="button" backgroundColor="bgkey" transparent="1"/>
-<widget source="ServiceEvent" render="Label" position="1200,342" zPosition="1" size="105,35" font="Regular;28" foregroundColor="button" backgroundColor="bgbutton" halign="right" transparent="1">
+<widget source="ServiceEvent" render="Label" position="1200,340" zPosition="1" size="105,35" font="Regular;28" foregroundColor="button" backgroundColor="bgbutton" halign="right" transparent="1">
 <convert type="EventTime">StartTime</convert>
 <convert type="ClockToText"></convert>
 </widget>
-<widget source="ServiceEvent" render="Label" position="1677,342" zPosition="1" size="105,35" font="Regular;28" halign="left" foregroundColor="button" backgroundColor="bgbutton" transparent="1">
+<widget source="ServiceEvent" render="Label" position="1677,340" zPosition="1" size="105,35" font="Regular;28" halign="left" foregroundColor="button" backgroundColor="bgbutton" transparent="1">
 <convert type="EventTime">EndTime</convert>
 <convert type="ClockToText">Format:%H:%M</convert>
 </widget>
 <widget source="ServiceEvent" render="Progress" position="1315,345" zPosition="1" pixmap="BlackShadowSE_P/progress.png" size="350,22" borderWidth="1" borderColor="#cccccc">
 <convert type="EventTime">Progress</convert>
 </widget>
-<widget source="ServiceEvent" render="Label" position="1218,380" zPosition="1" size="580,192" font="Regular;28" foregroundColor="button" backgroundColor="bgbutton" transparent="1">
-<convert type="EventName">ExtendedDescription</convert>
+<widget source="ServiceEvent" render="Label" position="1218,385" zPosition="1" size="580,352" font="Regular;28" foregroundColor="button" backgroundColor="bgbutton" transparent="1">
+<convert type="EventName">FullDescription</convert>
 </widget>
-<widget source="ServiceEvent" render="Label" position="1218,580" zPosition="1" size="580,32" font="Regular;28" foregroundColor="info" backgroundColor="bgbutton" transparent="1">
-<convert type="EventName">NextName</convert>
-</widget>
-<widget source="ServiceEvent" render="Label" position="1218,615" zPosition="1" size="580,192" font="Regular;28" foregroundColor="grey" backgroundColor="bgbutton" transparent="1">
-<convert type="EventName">NextDescription</convert>
+<widget source="ServiceEvent" render="NextEpgInfo" position="1218,740" zPosition="1" size="538,70" font="Regular;30" foregroundColor="grey" backgroundColor="bgbutton" transparent="1"/>
+<widget source="ServiceEvent" render="Label" position="1218,810" size="435,60" font="Regular;28" halign="left" foregroundColor="button" backgroundColor="bgbutton" transparent="1">
+<convert type="TransponderInfo"></convert>
 </widget>
 </screen>
 <screen name="ChannelSelectionRadio" position="70,145" size="1780,580" title="">
@@ -1687,7 +1673,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
 }
 </convert>
 </widget>
-<widget name="rc" position="993,70" size="154,500" pixmap="BlackShadowSE_P/rc.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -1709,7 +1695,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
 }
 </convert>
 </widget>
-<widget name="rc" position="993,70" size="154,500" pixmap="BlackShadowSE_P/rc.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -1731,7 +1717,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
 }
 </convert>
 </widget>
-<widget name="rc" position="993,70" size="154,500" pixmap="BlackShadowSE_P/rc.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -1753,7 +1739,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
 }
 </convert>
 </widget>
-<widget name="rc" position="993,70" size="154,500" pixmap="BlackShadowSE_P/rc.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -1776,7 +1762,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
 }
 </convert>
 </widget>
-<widget name="rc" position="993,70" size="154,500" pixmap="BlackShadowSE_P/rc.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -1798,7 +1784,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
 }
 </convert>
 </widget>
-<widget name="rc" position="993,70" size="154,500" pixmap="BlackShadowSE_P/rc.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -1816,7 +1802,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
 }
 </convert>
 </widget>
-<widget name="rc" position="993,70" size="154,500" pixmap="BlackShadowSE_P/rc.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -1835,7 +1821,7 @@ MultiContentEntryPixmap(pos = (10, 5), size = (60, 40), png = 2),
 }
 </convert>
 </widget>
-<widget name="rc" position="993,70" size="154,500" pixmap="BlackShadowSE_P/rc.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -2068,7 +2054,7 @@ MultiContentEntryPixmap(pos = (10, 5), size = (60, 40), png = 2),
 <screen name="HelpMenu" position="center,200" size="1300,720" title="help...">
 <widget name="list" position="20,10" size="820,700" zPosition="2" font="Regular;28" itemHeight="32" enableWrapAround="1" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x32.png" selectionPixmap="BlackShadowSE_P/menu/button820x32.png" transparent="1"/>
 <widget name="long_key" position="993,585" size="142,35" font="Regular;30" halign="center" foregroundColor="info" backgroundColor="bgmain" transparent="1"/>
-<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="142,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowdown.png" zPosition="11" alphatest="blend"/>
 <widget name="arrowup" position="-100,-100" size="37,70" pixmap="BlackShadowSE_P/arrowup.png" zPosition="11" alphatest="blend"/>
@@ -6987,7 +6973,7 @@ shadowOffset="2,2" font="Regular;56" valign="center" halign="right" >
 <widget name="ErrorPixmap" pixmap="BlackShadowSE_P/icons/input_error.png" position="20,20" size="53,53" alphatest="blend"/>
 <widget name="QuestionPixmap" pixmap="BlackShadowSE_P/icons/input_question.png" position="20,20" size="53,53" alphatest="blend"/>
 <widget name="InfoPixmap" pixmap="BlackShadowSE_P/icons/input_info.png" position="20,20" size="53,53" alphatest="blend"/>
-<widget name="rc" position="993,70" size="154,500" pixmap="BlackShadowSE_P/rc.png" zPosition="10" alphatest="on"/>
+<widget name="rc" position="993,70" size="154,500" pixmap="/usr/share/enigma2/skin_default/rc.png" zPosition="10" alphatest="on"/>
 <widget name="text" position="20,120" size="820,240" font="Regular;28" foregroundColor="button" backgroundColor="bgbutton" transparent="1"/>
 <widget name="list" position="20,380" size="820,320" font="Regular;28" itemHeight="40" enableWrapAround="1" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1"/>
 </screen>
