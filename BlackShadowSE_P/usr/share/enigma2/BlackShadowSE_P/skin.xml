@@ -1528,30 +1528,41 @@ MultiContentEntryText(pos = (670, 3), size = (150, 37),  font = 1, flags = RT_HA
   <screen name="ChannelContextMenu" position="30,120" size="820,850" title="Channellist menu">
     <widget name="menu" position="0,20" size="820,760" zPosition="2" font="Regular;28" itemHeight="40" enableWrapAround="1" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1" />
   </screen>
-  <screen name="ChannelSelection" position="center,105" size="1820,880" title="">
-    <eLabel position="1200,20" size="640,320" zPosition="2" backgroundColor="black" />
-    <widget source="session.VideoPicture" render="Pig" position="1228,30" zPosition="3" size="530,300" backgroundColor="transparent2" />
-    <ePixmap pixmap="BlackShadowSE_P/menu/menubutton.png" position="1730,815" size="48,48" alphatest="blend" />
-    <ePixmap pixmap="BlackShadowSE_P/menu/epg.png" position="1660,815" size="48,48" alphatest="blend" />
-    <eLabel position="1190,0" size="3,880" zPosition="1" backgroundColor="un272727" />
-    <widget name="list" position="10,67" size="1180,810" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="white" progressBarWidth="80" fieldMargins="13" foregroundColorServiceNotAvail="#999999" colorEventProgressbarSelected="white" colorServiceDescription="#afafaf" colorServiceDescriptionSelected="white" serviceItemHeight="45" serviceNumberFont="Regular;26" serviceNameFont="Regular;32" serviceInfoFont="Regular;32" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg1180x45.png" selectionPixmap="BlackShadowSE_P/menu/button1180x45.png" transparent="1" />
-    <ePixmap pixmap="BlackShadowSE_P/buttons/red48x48.png" position="40,10" size="48,48" alphatest="blend" />
-    <ePixmap pixmap="BlackShadowSE_P/buttons/green48x48.png" position="340,10" size="48,48" alphatest="blend" />
-    <ePixmap pixmap="BlackShadowSE_P/buttons/yellow48x48.png" position="640,10" size="48,48" alphatest="blend" />
-    <ePixmap pixmap="BlackShadowSE_P/buttons/blue48x48.png" position="940,10" size="48,48" alphatest="blend" />
-    <widget name="key_red" position="105,10" size="285,48" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="button" backgroundColor="bgmain" transparent="1" />
-    <widget name="key_green" position="405,10" size="285,48" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="button" backgroundColor="bgmain" transparent="1" />
-    <widget name="key_yellow" position="705,10" size="285,48" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="button" backgroundColor="bgmain" transparent="1" />
-    <widget name="key_blue" position="1005,10" size="285,48" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="button" backgroundColor="bgmain" transparent="1" />
-    <widget source="ServiceEvent" render="Label" position="1200,340" zPosition="1" size="105,35" font="Regular;28" foregroundColor="button" backgroundColor="bgbutton" halign="right" transparent="1">
-      <convert type="EventTime">StartTime</convert>
-      <convert type="ClockToText">
-      </convert>
-    </widget>
-    <widget source="ServiceEvent" render="Label" position="1677,340" zPosition="1" size="105,35" font="Regular;28" halign="left" foregroundColor="button" backgroundColor="bgbutton" transparent="1">
-      <convert type="EventTime">EndTime</convert>
-      <convert type="ClockToText">Format:%H:%M</convert>
-    </widget>
+ <screen name="ChannelSelection" position="center,105" size="1820,880" title="">
+<eLabel position="1208,18" size="570,324" zPosition="2" backgroundColor="black"/>
+<widget source="session.VideoPicture" render="Pig" position="1228,30" zPosition="3" size="530,300" backgroundColor="#ff000000"/>
+<ePixmap pixmap="BlackShadowSE_P/menu/menubutton.png" position="1730,815" size="48,48" alphatest="blend"/>
+<ePixmap pixmap="BlackShadowSE_P/menu/epg.png" position="1660,815" size="48,48" alphatest="blend"/>
+<eLabel position="1200,0" size="3,790" zPosition="1" backgroundColor="#323232"/>
+<widget name="list" position="10,70" size="1178,720" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="#ffffff" foregroundColorServiceNotAvail="#999999" colorEventProgressbarSelected="#ffffff" colorServiceDescription="#afafaf" colorServiceDescriptionSelected="#ffffff" serviceItemHeight="45" serviceNumberFont="Regular;26" serviceNameFont="Regular;32" serviceInfoFont="Regular;32" backgroundColor="bgbutton" backgroundColorSelected="selbutton" selectionPixmap="BlackShadowSE_P/menu/button1180x45.png" transparent="1"/>
+<ePixmap pixmap="BlackShadowSE_P/buttons/red48x48.png" position="40,10" size="48,48" alphatest="blend"/>
+<ePixmap pixmap="BlackShadowSE_P/buttons/green48x48.png" position="340,10" size="48,48" alphatest="blend"/>
+<ePixmap pixmap="BlackShadowSE_P/buttons/yellow48x48.png" position="640,10" size="48,48" alphatest="blend"/>
+<ePixmap pixmap="BlackShadowSE_P/buttons/blue48x48.png" position="940,10" size="48,48" alphatest="blend"/>
+<widget name="key_red" position="105,10" size="285,48" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="button" backgroundColor="bgmain" transparent="1"/>
+<widget name="key_green" position="405,10" size="285,48" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="button" backgroundColor="bgmain" transparent="1"/>
+<widget name="key_yellow" position="705,10" size="285,48" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="button" backgroundColor="bgmain" transparent="1"/>
+<widget name="key_blue" position="1005,10" size="285,48" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="button" backgroundColor="bgmain" transparent="1"/>
+<ePixmap name="epg_search" pixmap="BlackShadowSE_P/buttons/epg_b.png" position="40,810" size="52,52" alphatest="blend"/>
+<ePixmap name="epg_single" pixmap="BlackShadowSE_P/buttons/epg_b.png" position="340,810" size="52,52" alphatest="blend"/>
+<ePixmap name="epg_multig" pixmap="BlackShadowSE_P/buttons/epg_b.png" position="640,810" size="52,52" alphatest="blend"/>
+<ePixmap name="last_search" pixmap="BlackShadowSE_P/buttons/epg_b.png" position="940,810" size="52,52" alphatest="blend"/>
+<eLabel text="1" position="57,821" size="30,35" zPosition="1" font="Regular;28" halign="left" backgroundColor="grey" transparent="1"/>
+<eLabel text="2" position="358,821" size="30,35" zPosition="1" font="Regular;28" halign="left" backgroundColor="grey" transparent="1"/>
+<eLabel text="3" position="658,821" size="30,35" zPosition="1" font="Regular;28" halign="left" backgroundColor="grey" transparent="1"/>
+<eLabel text="4" position="957,821" size="30,35" zPosition="1" font="Regular;28" halign="left" backgroundColor="grey" transparent="1"/>
+<eLabel text="Epg Search" position="105,819" size="300,48" zPosition="1" font="Regular;32" halign="left" foregroundColor="button" backgroundColor="bgkey" transparent="1"/>
+<eLabel text="Single Epg" position="405,819" size="300,48" zPosition="1" font="Regular;32" halign="left" foregroundColor="button" backgroundColor="bgkey" transparent="1"/>
+<eLabel text="MultiG Epg" position="705,819" size="300,48" zPosition="1" font="Regular;32" halign="left" foregroundColor="button" backgroundColor="bgkey" transparent="1"/>
+<eLabel text="Last Search" position="1005,819" size="300,48" zPosition="1" font="Regular;32" halign="left" foregroundColor="button" backgroundColor="bgkey" transparent="1"/>
+<widget source="ServiceEvent" render="Label" position="1200,342" zPosition="1" size="105,35" font="Regular;28" foregroundColor="button" backgroundColor="bgbutton" halign="right" transparent="1">
+<convert type="EventTime">StartTime</convert>
+<convert type="ClockToText"></convert>
+</widget>
+<widget source="ServiceEvent" render="Label" position="1677,342" zPosition="1" size="105,35" font="Regular;28" halign="left" foregroundColor="button" backgroundColor="bgbutton" transparent="1">
+<convert type="EventTime">EndTime</convert>
+<convert type="ClockToText">Format:%H:%M</convert>
+</widget>
     <widget source="ServiceEvent" render="Progress" position="1315,345" zPosition="1" pixmap="BlackShadowSE_P/progress.png" size="350,22" borderWidth="1" borderColor="uncccccc">
       <convert type="EventTime">Progress</convert>
     </widget>
