@@ -1,0 +1,15 @@
+#!/bin/sh
+
+rm -rf /usr/share/enigma2/EclipseFHD
+rm -rf /usr/uninstall/EclipseFHD.nab
+
+activeskin=`grep -c -e 'EclipseFHD' /etc/enigma2/settings`
+
+if test $activeskin = 1
+then
+sed -e '/EclipseFHD/d' /etc/enigma2/settings > /tmp/settings
+mv /tmp/settings /etc/enigma2/settings
+killall -9 enigma2
+fi
+
+exit 0
